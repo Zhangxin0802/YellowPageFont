@@ -22,7 +22,8 @@ export default new Vuex.Store({
                     url: {}
                 }
             ]
-        }
+        },
+        address:''
     },
     mutations: {
         change(state, list) {
@@ -32,6 +33,7 @@ export default new Vuex.Store({
             // state.value.content = list.content;
             // state.value.literatureList = list.literatureList;
             state.value = list;
+            state.address = '49.235.164.54';
             // console.log("success")
         },
     },

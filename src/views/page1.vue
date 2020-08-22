@@ -125,7 +125,7 @@
             // eslint-disable-next-line no-unused-vars
             handleNodeClick(data) {
                 // console.log(data);
-                let url = "http://182.92.123.213:7070/search/java/0/1";
+                let url = "http://"+this.$store.state.address+":8080/search/java/0/1";
                 axios.get(url)
                 // eslint-disable-next-line no-unused-vars
                     .then(res => {
