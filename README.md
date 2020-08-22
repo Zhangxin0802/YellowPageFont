@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # untitled7
 
 ## Project setup
@@ -22,3 +23,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+# YellowPageFont
+>>>>>>> b13938b8646cb3da13a4ff557572394bad14637a
