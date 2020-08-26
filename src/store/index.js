@@ -9,6 +9,7 @@ Vue.use(Vuex)
 // })
 export default new Vuex.Store({
     state: {
+        address: 'os.qiankun.su:7070',
         value: {
             abbr: '',
             cnName: '',
@@ -23,17 +24,11 @@ export default new Vuex.Store({
                 }
             ]
         },
-        address:''
     },
     mutations: {
         change(state, list) {
-            // state.value.abbr = list.abbreviation;
-            // state.value.cnName = list.cnName;
-            // state.value.enName = list.enName;
-            // state.value.content = list.content;
-            // state.value.literatureList = list.literatureList;
             state.value = list;
-            state.address = '49.235.164.54:7070';
+
             // console.log("success")
         },
     },

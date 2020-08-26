@@ -129,18 +129,15 @@
                 axios.get(url)
                 // eslint-disable-next-line no-unused-vars
                     .then(res => {
-                        // console.log(res);
-                        // this.message=res.data[0];
                     }).catch(err => console.log(err));
             },
-            // change(e) {
-            //     this.$forceUpdate(e);
-            // },
+
+            //跳转显示
             jump() {
                 // var thisy+ = this;
                 console.log("before push");
                 // this.$router.push({path: "ShowInfo", name: "ShowInfo"})
-                let url = "http://182.92.123.213:7070/search/" + this.msg + "/0/1";
+                let url = "http://" + this.$store.state.address + '/search/' + this.msg + "/0/1";
                 console.log(url);
                 // +"java/0/1";
                 axios.get(url)
