@@ -33,7 +33,7 @@ export default new Vuex.Store({
             // state.value.content = list.content;
             // state.value.literatureList = list.literatureList;
             state.value = list;
-            state.address = '49.235.164.54';
+            state.address = '49.235.164.54:7070';
             // console.log("success")
         },
     },
